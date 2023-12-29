@@ -4,7 +4,7 @@
 
 :root{
     --padding-container: 100px 0;
-    --color-title: rgb(255, 81, 0);
+    --color-title: rgb(255, 255, 255);
 }
 
 body{
@@ -122,9 +122,19 @@ body{
     margin-top: 20px;
 }
 
+.cta__principal{
+    display: inline-block;
+    background-color: #FF650C;
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 32px;
+}
+
 .cta{
     display: inline-block;
-    background-color: rgb(255, 81, 0);
+    background-color: #555B6E;
     justify-self: center;
     color: #fff;
     text-decoration: none;
@@ -250,8 +260,7 @@ body{
 /* Knowledge */
 
 .knowledge{
-    /*background-color: rgb(255, 145, 0);*/
-    background: linear-gradient(180deg, rgba(255,255,255,0) 1%, rgba(238,115,13,1) 90%);
+    background-color: #FF650C;
 }
 
 .knowledge__container{
@@ -282,6 +291,8 @@ body{
     text-align: center;
 }
 
+
+
 .price__table{
     padding-top: 60px;
     display: flex;
@@ -300,21 +311,21 @@ body{
     --color-plan: #696871;
     --color-price: #1d293f;
     --bg-cta: #fff;
-    --color-cta: #5454da;
+    --color-cta: #585858;
     --color-items: #696871;
 }
 
 .price__element--best{
     width: 360px;
     padding: 60px 40px;
-    background-color: #ff7143;
+    background-color: #FF650C;
 
 
-    --color-plan: hsl(0, 100%, 50%);
-    --color-price: hwb(69 0% 0%);
-    --bg-cta: hsl(300, 100%, 50%);
-    --color-cta: hsl(0, 0%, 0%);
-    --color-items: #696871;
+    --color-plan: hsl(0, 27%, 81%);
+    --color-price: hwb(0 100% 0%);
+    --bg-cta: #555B6E;
+    --color-cta: #fff;
+    --color-items: #c8c7d3;
 }
 
 .price__name{
@@ -348,14 +359,14 @@ body{
     background-color: var(--bg-cta);
     font-weight: 600;
     color: var(--color-cta);
-    box-sizing: 0 0 1px rgba(0, 0, 0, .5);
+    box-sizing: 0 0 1px rgba(255, 255, 255, 0.5);
 }
 
 
 /* Testimony */
 
 .testimony{
-    background-color: #696871;
+    background-color: #FF650C;
 }
 
 .testimony__container{
@@ -396,8 +407,8 @@ body{
 }
 
 .testimony__course{
-    background-color: royalblue;
-    color: #fff;
+    background-color:#555B6E;
+    color: #FFf;
     display: inline-block;
     padding: 5px;
 }
@@ -423,7 +434,7 @@ body{
 .questions__padding{
     padding: 0;
     transition: padding .3s;
-    border: 1px solid #5454d4;
+    border: 1px solid #000000;
     border-radius: 6px;
 }
 
@@ -443,7 +454,7 @@ body{
     font-size: 20px;
     padding: 30px 0 30px;
     cursor: pointer;
-    color: var(--color-title);
+    color: #FF650C;
     justify-content: space-between;
     
 }
@@ -474,8 +485,16 @@ body{
 
 .questions__img{
     display: block;
+    background-color: #FF650C;
+    border-radius: 50%;
 }
 
+
+.questions .subtitle{
+    color: #FF650C;
+}
+
+/*
 .questions__copy{
     width: 60%;
     margin: 0 auto;
@@ -488,11 +507,12 @@ body{
     background-color: #1d293f;
     padding: 10px;
 }
+*/
 
 /* Footer */
 
 .footer{
-    background-color: #ff7143;
+    background-color: #FF650C;
 }
 
 .footer__title{
@@ -678,6 +698,7 @@ body{
     margin: 0;
     }
 
+    /*
     .footer__form{
         width: 100%;
         justify-content: space-evenly;
@@ -686,7 +707,7 @@ body{
     .footer__input{
         flex: 1;
     }
-
+    */
 
 
 }
@@ -756,6 +777,7 @@ body{
         padding: 0;
     }
 
+    /*
     .footer__inputs{
         flex-wrap: wrap;
     }
@@ -766,10 +788,12 @@ body{
         margin-bottom: 16px;
     }
 
+    
     .footer__submit{
         margin-right: auto;
         margin-left: 0;
     }
+    */
 }
 
 .whatsapp__img{
@@ -787,3 +811,7 @@ body{
 
 }    
     
+.separador{
+    background-color: blue;
+}
+
