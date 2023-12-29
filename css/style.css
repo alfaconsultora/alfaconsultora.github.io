@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&family=Outfit:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap');
 
+
 :root{
     --padding-container: 100px 0;
     --color-title: rgb(255, 255, 255);
@@ -224,6 +225,10 @@ body{
     text-align: center;
 }
 
+.about .subtitle{
+    color: #FF650C;
+}
+
 .subtitle{
     color: var(--color-title);
     font-size: 2rem;
@@ -291,6 +296,9 @@ body{
     text-align: center;
 }
 
+.price__container .subtitle{
+    color: #FF650C;
+}
 
 
 .price__table{
@@ -638,9 +646,7 @@ body{
         cursor: pointer;
     }
 
-    .hero__title{
-        font-size: 2.5em;
-    }
+    
 
     .about__main{
         gap: 2em;
